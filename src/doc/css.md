@@ -20,7 +20,7 @@
 　　如何设置：通过box-sizing设置
 
 <p style='margin-left:20px; padding:20px; background:lightblue;border-radius:4px'><b>Tip</b>
-border-box的作用:当我们希望无论如何改动border，width与padding的值，都不会导致box总尺寸发生变化时可以使用。
+border-box的作用:当我们希望无论如何改动border，width与padding的值，都不会导致box总尺寸发生变化时可以使用。比如在水平布局有多个div，然后各占50%，然后不管你怎么设置border和padding，他都不会被挤到下一行。
 </p>
 
 ### BFC
@@ -46,23 +46,24 @@ border-box的作用:当我们希望无论如何改动border，width与padding的
 
 ### 和css reset的区别
 
-        1. 保留了默认的浏览器样式
+    1. 保留了默认的浏览器样式
 
-        Normalize.css保留了许多浏览器有用的默认样式，而不需要重新去定义。Normalize.css旨在使那些不同的浏览器风格一致
+    Normalize.css保留了许多浏览器有用的默认样式，而不需要重新去定义。其旨在使那些不同的浏览器风格一致
 
-        2. 修复了常见的Bug
+    2. 修复了常见的Bug
 
-        Normalize.css解决了常见的PC和移动端的样式Bug，包括HTML5显示的元素、预定义格式的字体大小、IE9中的SVG溢出等
+    Normalize解决了常见的PC和移动端的样式Bug，包括HTML5显示的元素、预定义格式的字体大小、IE9中的SVG溢出等
 
-        3. 不会使得调试更加的麻烦
+    3. 不会使得调试更加的麻烦
 
-        Resets会使用大量的继承链，这样会使得调试时元素非常的混乱。而normalize.css会使用非常谨慎的使用多个选择器。
+    Resets会使用大量的继承链，这样会使得调试时元素非常的混乱。而normalize会非常谨慎的使用多个选择器。
 
-        4. 模块化的样式
+    4. 模块化的样式
 
-        normalize.css每个样式的修改都是一个独立的元素选择器，这有利于快速的修改网站所需的样式内容。
+    normalize.css每个样式的修改都是一个独立的元素选择器，这有利于快速的修改网站所需的样式内容。
 
 ## css选择器和优先级
+
 <div style='text-align:center;'>
  <a href='https://www.w3school.com.cn/cssref/css_selectors.asp' target='_blank'>全部</a>
  <a style='margin-left:20px;' href='https://www.w3school.com.cn/css/css_pseudo_classes.asp' target='_blank'>伪类和伪元素</a>
@@ -72,9 +73,21 @@ border-box的作用:当我们希望无论如何改动border，width与padding的
 
 <img width='400' height='200' src='img/css-specificity.jpg'></img>
 
-权值跃迁
+```
+关于!important的使用
 
-权值跃迁讨论的问题是，当有11个元素选择器和1个类选择器同时选中同一元素时，哪个选择器的样式会生效。
+  总是先考虑使用权重更高的 css 选择器, 而不是使用!important
+
+　只有当你的目的是覆盖来自第三方的 css(如: Bootstrap,normalize.css)时, 才在页面范围使用 !important
+
+  永远不要 在你写一个第三方插件时使用 !important
+
+  永远不要在全站范围使用 !important
+```
+
+<div style='text-align:center;margin-top:10px'>
+   <a href='/demo5' target='_blank'>示例二</a>
+</div>
 
 ## css布局
 
@@ -125,6 +138,10 @@ border-box的作用:当我们希望无论如何改动border，width与padding的
 ## 自适应
 
 ### 媒体查询
-@media screen and ( min/max width:760px)
 
+```
+@media screen and ( min/max width:760px)
+```
+rem等单位
+  postcss-px-to-viewport方案
 [练习一](/index)

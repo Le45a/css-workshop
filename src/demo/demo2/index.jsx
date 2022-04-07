@@ -4,8 +4,8 @@ import styles from "./index.module.css";
 const Demo2 = () => {
   return (
     <>
-      <div class={styles.container}>
-        <div class={styles.item}></div>
+      <div className={styles.container}>
+        <div className={styles.item}></div>
         <p>
           Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi
           radish
