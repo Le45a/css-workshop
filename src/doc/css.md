@@ -116,6 +116,8 @@ border-box的作用:当我们希望无论如何改动border，width与padding的
 
 　　display：flex
 
+#### flex容器
+
 #### 弹性盒子的轴
 
 　　flex-direction：主轴
