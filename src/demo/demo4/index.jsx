@@ -1,13 +1,19 @@
 import React from "react";
 import styles from "./index.module.css";
+import FlexDirection from "./flexDirection";
+import JustifyContent from "./justifyContent";
+import AlignItems from "./alignItems";
 
 const Demo4 = () => {
   return (
     <>
-      <div class={styles.container}>
-        <div class={styles.item}>1</div>
-        <div class={styles.item}>2</div>
-        <div class={styles.item}>3</div>
+      <FlexDirection/>
+      <JustifyContent/>
+      <AlignItems/>
+      <div className={styles.container}>
+        <div className={styles.item}>1</div>
+        <div className={styles.item}>2</div>
+        <div className={styles.item}>3</div>
       </div>
       <div>
         问题：
