@@ -1,4 +1,4 @@
-import Home from "./page/index.jsx";
+import Home from "./page/index.tsx";
 import Demo1 from "./demo/demo1";
 import Demo2 from "./demo/demo2";
 import Demo3 from "./demo/demo3";
