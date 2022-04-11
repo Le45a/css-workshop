@@ -1,5 +1,6 @@
 import Home from "./page/index.tsx";
-import Demo1 from "./demo/demo1";
+import CSSBox from "./demo/css-box/index";
+// import CSSSelector from "./demo/css-selector/index";
 import Demo2 from "./demo/demo2";
 import Demo3 from "./demo/demo3";
 import Demo4 from "./demo/demo4";
@@ -11,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/home' element={<Home />} />
-        <Route path='/demo1' element={<Demo1 />} />
+        <Route path='/css-box' element={<CSSBox />} />
         <Route path='/demo2' element={<Demo2 />} />
         <Route path='/demo3' element={<Demo3 />} />
         <Route path='/demo4' element={<Demo4 />} />
