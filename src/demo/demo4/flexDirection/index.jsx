@@ -5,7 +5,7 @@ import styles from "../index.module.css";
 const FlexDirection = () => {
   return (
       <>
-          <div className={styles.title1}>flex-direction: 决定主轴的方向(即项目的排列方向)</div>
+          <div className={styles.title1}>1.flex-direction: 决定主轴的方向(即项目的排列方向)</div>
           <div className={styles.title}>默认值：row，主轴为水平方向，起点在左端。</div>
           <div className={styles['flex-container']} style={{display:'flex', flexDirection: 'row'}}>
               <List/>

@@ -6,7 +6,7 @@ import styles from "./index.module.css";
 const AlignItems = () => {
   return (
       <>
-          <div className={commonStyles.title1}>align-items: 定义了项目在交叉轴上的对齐方式</div>
+          <div className={commonStyles.title1}>4.align-items: 定义了项目在交叉轴上的对齐方式</div>
           <div className={commonStyles.title}>默认值为 stretch 即如果项目未设置高度或者设为 auto，将占满整个容器的高度。</div>
           <div className={commonStyles.description}>1未设置高度，占满了容器高度，2，3设置了高度，以他们自己的高度为准</div>
           <div className={commonStyles['flex-container']} style={{display:'flex', flexDirection: 'row', alignItems: 'stretch', height: '200px'}}>

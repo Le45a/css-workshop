@@ -5,7 +5,7 @@ import styles from "../index.module.css";
 const JustifyContent = () => {
   return (
       <>
-          <div className={styles.title1}>justify-content：定义了项目在主轴的对齐方式</div>
+          <div className={styles.title1}>3.justify-content：定义了项目在主轴的对齐方式</div>
           <div className={styles.title}>默认值: flex-start 左对齐</div>
           <div className={styles['flex-container']} style={{display:'flex', flexDirection: 'row', justifyContent: 'flex-start'}}>
               <List/>
