@@ -1,0 +1,27 @@
+.practise-02-image {
+  background: url("practise2.jpg") no-repeat 100%/100%;
+  width: 1047px;
+  height: 548px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #D1D5DB;
+  padding: 16px 8px 0;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.item {
+  margin-bottom: 16px;
+  flex: 33.3%;
+  padding: 0 8px;
+}
+
+.content {
+  border: 1px solid #D1D5DB;
+  padding: 16px;
+  height: 100%;
+}

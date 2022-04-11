@@ -3,13 +3,17 @@ import styles from "./index.module.css";
 import FlexDirection from "./flexDirection";
 import JustifyContent from "./justifyContent";
 import AlignItems from "./alignItems";
+import Practise from "./practise";
+import FlexWrap from "./flexWrap";
 
 const Demo4 = () => {
   return (
     <>
       <FlexDirection/>
+      <FlexWrap/>
       <JustifyContent/>
       <AlignItems/>
+      <Practise/>
       <div className={styles.container}>
         <div className={styles.item}>1</div>
         <div className={styles.item}>2</div>
