@@ -14,10 +14,12 @@ import AlignSelf from "./alignSelf";
 const Demo4 = () => {
   return (
     <div className={styles['page-container']}>
+      <div className={styles['title-category']}>Flex 容器：</div >
       <FlexDirection/>
       <FlexWrap/>
       <JustifyContent/>
       <AlignItems/>
+      <div className={styles['title-category']}>Flex 项目属性：</div>
       <Order/>
       <FlexBasis/>
       <FlexGrow/>

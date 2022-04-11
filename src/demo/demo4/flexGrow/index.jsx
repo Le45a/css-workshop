@@ -6,7 +6,7 @@ import FlexItem from "../flexItem";
 const FlexGrow = () => {
   return (
       <>
-          <div className={commonStyles.title1}>flex-grow: 定义项目的放大比例</div>
+          <div className={commonStyles.title1}>7.flex-grow: 定义项目的放大比例</div>
           <div className={commonStyles.title}>若子项flex-grow为0，则即使容器存在剩余空间，也不放大，如子项2，3，子项1设置了flex-grow: 1，则占满了剩余空间</div>
           <div className={`${styles.image} ${styles.image1}`}/>
           <div className={commonStyles['flex-container']} style={{display:'flex', flexDirection: 'row', marginBottom: '8px'}}>
