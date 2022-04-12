@@ -72,3 +72,4 @@
 
   缺点：部分浏览器不兼容，需要转换单位
 
+<a href='https://github.com/evrone/postcss-px-to-viewport/blob/master/README_CN.md' target='_blank'>postcss-px-to-viewport方案</a>

@@ -14,10 +14,14 @@
             }
 ```
 
-　　浮动容易出现的问题(例子)
+　　浮动容易出现的问题:
+
+1. 高度塌陷
+2. 虽然脱离了文档流，但脱离的不彻底，容易影响其他标签。
 
 ## 定位
 
+<a style='margin-left:28px;font-size:16px;' href="/position" target="_blank">定位示例</a>
 ### 相对定位
 
 　　相对定位可以将元素偏移其原先在正常文档流中的位置。可以使用top、left、bottom和right属性来相对其正常流位置进行移动。
@@ -106,6 +110,8 @@
 ```
 
 ### flex的其他属性
+
+<a style='margin-left:28px;font-size:16px;' href="/css-layout" target="_blank">弹性盒子属性具体介绍</a>
 
 - flex-wrap: 决定是否换行，flex布局默认不换行
 - flex-flow：flex-direction 属性和 flex-wrap 属性的简写形式

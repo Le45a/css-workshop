@@ -150,8 +150,8 @@
 　　选择每个非selector元素的元素：
 
 ```css
-        /*匹配最后一个子元素*/
-        div:not(p) {
+        /*匹配div下没有class-item类的元素*/
+        div:not(.class-item) {
           color: blue;
        }
 
@@ -195,6 +195,8 @@
         }
 ```
 
+<a style='margin-left:28px;font-size:16px;' href="/css-selector" target="_blank">CSS选择器练习</a>
+
 ## 选择器优先级
 
 　　每种类型的选择器都有其权重，如下图：
@@ -220,4 +222,4 @@
 
 　　**tips:尽量不要使用!important,以免造成样式污染，除了必要的为了覆盖行内样式而使用!important外，其余情况应该用提高权重的方式去提高想要的样式优先级。**
 
-练习
+<a style='margin-left:28px;font-size:16px;' href="/css-weight" target="_blank">优先级示例</a>
