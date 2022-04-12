@@ -1,5 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./index.module.css";
+import CSSWeight01 from "./cssWeight01";
+import CSSWeight02 from "./cssWeight02";
+import CSSWeight03 from "./cssWeight03";
+import CSSWeight04 from "./cssWeight04";
+import CSSWeight05 from "./cssWeight05";
 
 const CSSWeight = () => {
   return (
@@ -12,6 +17,11 @@ const CSSWeight = () => {
           </p>
         </div>
       </div>
+      <CSSWeight01/>
+      <CSSWeight02/>
+      <CSSWeight03/>
+      <CSSWeight04/>
+      <CSSWeight05/>
     </>
   );
 };
