@@ -14,3 +14,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.title-category {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 16px 0;
+}
+
+.title1 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.title {
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+.description {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.practise-title {
+  font-size: 18px;
+  margin: 16px 0;
+  font-weight: 600;
+  color: #3B82F6;
+}
+

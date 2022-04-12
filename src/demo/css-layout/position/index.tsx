@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import Practise from "./practise";
 
 const Position = () => {
   return (
@@ -119,6 +120,7 @@ const Position = () => {
           radish asparagus spinach.
         </p>
       </div>
+      <Practise/>
     </>
   );
 };
