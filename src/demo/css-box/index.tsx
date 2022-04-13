@@ -53,16 +53,14 @@ const CSSBox = () => {
             bean celtuce.
           </p>
         </div>
-        <div>
-          <div className={styles.bottom}>
-            <h2>这是一个margin为20px的盒子</h2>
-            <span>by xxx</span>
-            <p>
-              Pea horseradish azuki bean lettuce avocado asparagus okra.
-              Kohlrabi radish okra azuki bean corn fava bean mustard tigernut
-              jícama green bean celtuce.
-            </p>
-          </div>
+        <div className={styles.bottom}>
+          <h2>这是一个margin为20px的盒子</h2>
+          <span>by xxx</span>
+          <p>
+            Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi
+            radish okra azuki bean corn fava bean mustard tigernut jícama green
+            bean celtuce.
+          </p>
         </div>
       </div>
       <b className={styles.question}>question：如何才能避免外边距重叠呢？</b>

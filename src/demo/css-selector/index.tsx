@@ -9,7 +9,7 @@ const CSSSelector = () => {
 
   return (
     <div className={styles.container}>
-      <div>在不改变dom结构的基础上，如何给样式，将各元素实现他们想要的效果</div>
+      <div>在不改变dom结构的基础上，如何给样式，将各元素实现他们想要的效果(位置：demo/css-selector/practice)</div>
 
       <Practice />
       <Button

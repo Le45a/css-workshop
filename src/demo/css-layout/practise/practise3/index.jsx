@@ -5,7 +5,9 @@ import styles from "./index.module.css";
 const Practise03 = () => {
   return (
     <>
-      <div className={commonStyles["practise-title"]}>练习题3</div>
+      <div className={commonStyles["practise-title"]}>
+        练习题3（位置：demo/practice）
+      </div>
       <div className={commonStyles.title}>请完成下列页面布局</div>
       <div className={commonStyles.description}>要求：</div>
       <div className={commonStyles.description}>
