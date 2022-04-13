@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import {Col, Row} from "antd";
 
 const Practise01 = () => {
   return (
