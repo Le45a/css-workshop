@@ -15,6 +15,7 @@ const Practise01 = () => {
         <div>"反馈中心"宽100px，高100px，背景颜色#7C3AED</div>
       </div>
       <div className={styles.image} />
+      {/*-------- 答题区 -----------*/}
     </>
   );
 };

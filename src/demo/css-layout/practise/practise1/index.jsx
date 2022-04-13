@@ -27,6 +27,7 @@ const Practise01 = () => {
         。元素可以膨胀以填充额外的空间, 收缩以适应更小的空间。
       </div>
       <div className={styles["practise-01-image"]} />
+      {/*-------- 答题区 -----------*/}
     </>
   );
 };
