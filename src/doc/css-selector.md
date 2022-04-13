@@ -195,9 +195,18 @@
         }
 ```
 
-<a style='margin-left:28px;font-size:16px;' href="/css-selector" target="_blank">CSS选择器练习</a>
+<a style='margin-left:28px;font-size:16px;' href="/css-selector" target="_blank">CSS选择器示例</a>
+
 
 ## 选择器优先级
+
+　　在讲选择器优先级之前，先来过一下样式优先级
+
+　　样式优先级如下图
+
+<div align="center">
+  <img  width=400 src='img/style-weight.png'></img>
+</div>
 
 　　每种类型的选择器都有其权重，如下图：
 
@@ -205,7 +214,14 @@
   <img width='400' height='200' src='img/css-specificity.jpg'></img>
 </div>
 
-　　选择器的权重可以相加，比如下面这个选择器
+　　选择器的权重可以相加，相加的规则如下：
+
+<div align="center">
+  <img width='600'  src='img/cul-weight.png'></img>
+</div>
+
+　　比如下面这个选择器
+
 
 ```css
        #id .class span{
@@ -216,9 +232,13 @@
 
 　　权重 = id选择器100+类选择器10+元素选择器1 = 111
 
-　　权重相同时，后面的选择器会覆盖前面的选择器相同的属性，权重不同时，权重高的选择器可以生效。(例子)
+　　权重相同时，后面的选择器会覆盖前面的选择器相同的属性，权重不同时，权重高的选择器可以生效。
 
-　　**权值跃迁**：无论有多少个低权级选择器，他的权重仍然低于权重高的选择器。（例子）
+　　**权值跃迁**：无论有多少个低权级选择器，他的权重仍然低于权重高的选择器。下面是截取MDN css继承规则的一张图：
+
+<div align="center">
+  <img width='600'  src='img/waring-weight.png'></img>
+</div>
 
 　　**tips:尽量不要使用!important,以免造成样式污染，除了必要的为了覆盖行内样式而使用!important外，其余情况应该用提高权重的方式去提高想要的样式优先级。**
 

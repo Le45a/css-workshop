@@ -37,36 +37,6 @@
 
 <a style='margin-left:28px;font-size:16px;' href="/css-box" target="_blank">CSS-box</a>
 
-　　IE盒模型作用就是对于宽度高度计算更简便，我们可以直接按照设计图的尺寸去计算宽高，而不用考虑边框和内边距，
-这与我们平时开发时使用的设计图相同，并且在某些情况下，border-box实际上是更有用的，比如说两栏布局，他们
-的宽度都为50%，这是如果设计师想要加个边框或者内边距时，我们可以直接修改对应属性，而不用再去修改宽度。(例子1)
-
-## normalize
-
-　　作用：为默认的HTML元素样式上提供了跨浏览器的高度一致性。
-
-　　和reset相比的好处：
-
-　　1. 保留了默认的浏览器样式
-
-　　Normalize.css保留了许多浏览器有用的默认样式，而不需要重新去定义。其旨在使那些不同的浏览器风格一致
-
-　　2. 修复了常见的Bug
-
-　　Normalize解决了常见的PC和移动端的样式Bug，包括HTML5显示的元素、预定义格式的字体大小、IE9中的SVG溢出等
-
-　　3. 不会使得调试更加的麻烦
-
-　　Resets会使用大量的继承链，这样会使得调试时元素非常的混乱。而normalize会非常谨慎的使用多个选择器。
-
-<div align="center">
-  <img  src='img/css-reset-debugging.png'></img>
-</div>
-
-　　4. 模块化的样式
-
-　　normalize.css每个样式的修改都是一个独立的元素选择器，这有利于快速的修改网站所需的样式内容，我们可以选择性的去选择我们需要的部分。
-
 ## BFC
 
 ### BFC是什么？
@@ -99,7 +69,7 @@
 
 ### BFC作用
 
-<a style='margin-left:28px;font-size:16px;' href="/css-box" target="_blank">CSS-box</a>
+<a style='margin-left:28px;font-size:16px;' href="/css-box" target="_blank">BFC作用</a>
 
 1. 利用BFC避免margin重叠
 2. 自适应两栏布局

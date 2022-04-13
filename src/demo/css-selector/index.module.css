@@ -1,68 +1,13 @@
-/********做答区**********/
-
-/*
-
-{
-  margin: 20px;
-  background: #ebc582;
-  padding: 20px;
-  border-radius: 4px;
-  color: #333;
-}
-
- {
-  content: "finished!";
-  margin-left: 20px;
-}
-
- {
-  font-style: italic;
-}
-
- {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
- {
-  color: #696868;
-}
-
- {
-  color: #959c8e;
-}
-
- {
-  color: #b5b345;
-  cursor: pointer;
-}
-{
-  color: rgb(116, 120, 86);
-}
-*/
-/************************/
-/*********权重*************/
-.weight-container {
+.container {
   margin: 20px;
   background: #ebc582;
   padding: 20px;
 }
 
-.weight-item .weight-p {
-  color: #232424;
+.container > p {
+  text-decoration: line-through;
 }
 
-.weight-p {
-  color: #75836f;
-}
-/*
-#weight-p-id {
-  color: #75836f;
-}
-*/
-/**********************/
-
-.question {
-  margin: 20px;
+.content p:not(#title){
+ color: #fff;
 }

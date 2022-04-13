@@ -15,7 +15,8 @@
 .item {
   width: 100px;
   height: 100px;
-  background-color: rgba(111, 41, 97, 0.3);
+  word-break: break-all;
+  background-color: rgb(214, 158, 203)
 }
 
 .relative .item {
@@ -34,5 +35,5 @@
 }
 .sticky .item {
   position: sticky;
-  top: 0;
+  top: 20px;
 }

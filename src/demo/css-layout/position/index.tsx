@@ -12,7 +12,9 @@ const Position = () => {
             radish okra azuki bean corn fava bean mustard tigernut jícama green
             bean celtuce.
           </p>
-          <div className={styles.item}></div>
+          <div className={styles.item}>
+            这是一个position:relative;bottom:50px的元素
+          </div>
           <p>
             Grape silver beet collard greens avocado quandong fennel gumbo
             black-eyed pea watercress potato tigernut corn groundnut. Chickweed
@@ -29,7 +31,9 @@ const Position = () => {
             radish okra azuki bean corn fava bean mustard tigernut jícama green
             bean celtuce.
           </p>
-          <div className={styles.item}></div>
+          <div className={styles.item}>
+            这是一个position:absolute;top:0的元素
+          </div>
           <p>
             Grape silver beet collard greens avocado quandong fennel gumbo
             black-eyed pea watercress potato tigernut corn groundnut. Chickweed
@@ -46,7 +50,9 @@ const Position = () => {
             radish okra azuki bean corn fava bean mustard tigernut jícama green
             bean celtuce.
           </p>
-          <div className={styles.item}></div>
+          <div className={styles.item}>
+            这是一个position:fixed;right:0;top:0的元素
+          </div>
           <p>
             Grape silver beet collard greens avocado quandong fennel gumbo
             black-eyed pea watercress potato tigernut corn groundnut. Chickweed
@@ -64,7 +70,7 @@ const Position = () => {
           radish okra azuki bean corn fava bean mustard tigernut jícama green
           bean celtuce.
         </p>
-        <div className={styles.item}></div>
+        <div className={styles.item}>这是一个position:sticky;top:20px的元素</div>
         <p>
           Grape silver beet collard greens avocado quandong fennel gumbo
           black-eyed pea watercress potato tigernut corn groundnut. Chickweed
