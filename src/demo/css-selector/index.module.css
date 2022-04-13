@@ -1,13 +1,6 @@
 .container {
   margin: 20px;
-  background: #ebc582;
   padding: 20px;
 }
 
-.container > p {
-  text-decoration: line-through;
-}
 
-.content p:not(#title){
- color: #fff;
-}

@@ -1,28 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
-import domImg from "./img/dom.png";
-import styleImg from "./img/style.png";
+import resultImg from "./img/result.png";
+import { Button } from "antd";
+import Practice from "./practice";
 
 const CSSSelector = () => {
+  const [showResult, showResultSet] = useState(false);
+
   return (
-    <>
-      <div className={styles.container}>
-        <div>
-          <p>子元素选择器只会选中container下的直接子元素，而不会选中孙子元素</p>
-          <p>:not(select)伪类选中除了select选择器的其他符合条件的元素</p>
-          <p>
-            <img width={400} src={domImg} />
-          </p>
-          <img width={400} src={styleImg} />
+    <div className={styles.container}>
+      <div>在不改变dom结构的基础上，如何给样式，将各元素实现他们想要的效果</div>
+
+      <Practice />
+      <Button
+        onClick={() => {
+          showResultSet(true);
+        }}>
+        查看答案:
+      </Button>
+      {showResult && (
+        <div style={{margin:'20px'}}>
+          <img width={300} src={resultImg} alt='' />
         </div>
-        <p>这是container的直接子元素</p>
-        <div className={styles.content}>
-          <p id={styles.title}>这是id为title的孙子元素</p>
-          <p>这是container的孙子元素</p>
-          <p>这是container的孙子元素</p>
-        </div>
-      </div>   
-    </>
+      )}
+    </div>
   );
 };
 export default CSSSelector;

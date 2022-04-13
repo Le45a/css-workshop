@@ -25,13 +25,7 @@ const Demo4 = () => {
       <FlexGrow/>
       <FlexShrink/>
       <AlignSelf/>
-      <Practise/>
-      <div className={styles.container}>
-        <div className={styles.item}>1</div>
-        <div className={styles.item}>2</div>
-        <div className={styles.item}>3</div>
-      </div>
-      
+      <Practise/>    
     </div>
   );
 };
